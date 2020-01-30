@@ -1,5 +1,6 @@
 {
-  "name": "react-tutorial",
+  "homepage": "https://nikpalyi.github.io/commenting-app/",
+  "name": "react-commenting",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -7,8 +8,9 @@
     "react-dom": "^16.4.1",
     "react-scripts": "^2.1.1"
   },
-  "homepage": "https://taniarascia.github.io/react-tutorial",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
